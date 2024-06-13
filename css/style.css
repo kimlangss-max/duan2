@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============================ common ============================== */
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+/* ========================= header ================================== */
+
+.header.fixx {
+  position: sticky;
+  top: 8px;
+  z-index: 999;
+}
+
+.header__body {
+  margin: 52px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__link {
+  padding: 8px 20px;
+  text-align: left;
+  color: #2f3a3b;
+}
+
+.header__link:hover {
+  text-shadow: 1px 0 0;
+}
+.header__active {
+  display: flex;
+  gap: 24px;
+}
+.header__btn {
+  border: 1px solid transparent;
+  color: #494949;
+  text-align: center;
+  display: block;
+  padding: 12px 24px;
+}
+.header__btn:hover {
+  border: 1px solid #1ebfc1;
+  border-radius: 6px;
+  color: #1ebfc1;
+  text-shadow: 1px 0 0;
+}
