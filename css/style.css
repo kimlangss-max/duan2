@@ -138,3 +138,117 @@ a {
   height: 62px;
   border-radius: 50%;
 }
+/* ========== words__right ================ */
+.words__right {
+  width: 54.8%;
+  position: relative;
+  text-align: right;
+}
+.words__img {
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
+.words__course {
+  position: absolute;
+  left: 25px;
+  top: 149px;
+  background-color: #fefefd;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  padding: 15px 25px;
+}
+.words__course--desc {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 15px;
+  color: #0d1111;
+}
+.words__logo1 {
+  /* display: none; */
+}
+.words__course--body {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.words__course--body::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 28px;
+  height: 4px;
+  background-color: #ffffff;
+  left: 4px;
+  top: 29px;
+}
+.words__schedules {
+  position: absolute;
+  left: 0;
+  bottom: 46px;
+  background-color: #ffffff;
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  padding: 16px 25px 23px;
+}
+
+.words__schedules--desc {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 15px;
+  color: #0d1111;
+}
+.words__line {
+  width: 74px;
+  height: 6px;
+  background-color: #edf1f5;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.words__line:nth-of-type(1) {
+  margin-top: 16px;
+}
+.words__line--pink {
+  height: 6px;
+  border-radius: 3px;
+  background-color: yellowgreen;
+}
+.words__line--pink1 {
+  width: 52%;
+}
+.words__line--pink2 {
+  width: 69%;
+}
+.words__line--pink3 {
+  width: 45%;
+}
+.words__student {
+  position: absolute;
+  right: 45px;
+  bottom: 41px;
+  width: 207px;
+  height: 90px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 17px 35px;
+}
+.words__student--desc {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+}
+.words__student--body {
+  margin-top: 8px;
+}
+.words__student--logo {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
